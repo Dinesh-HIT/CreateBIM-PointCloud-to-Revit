@@ -1,0 +1,480 @@
+{
+  "meta": {
+    "source_envelope_json": "G:\\CreateBIM\\dataset\\dataset2\\polygon_results\\pyrevit_planes.json",
+    "source_windows_ply": "G:\\CreateBIM\\dataset\\dataset2\\d2k_2_window_transfer.ply",
+    "window_dbscan_eps_m": 0.5,
+    "window_dbscan_min_samples": 10,
+    "door_dbscan_eps_m": 0.3,
+    "door_dbscan_min_samples": 25,
+    "tol_plane_m": 0.12,
+    "max_plane_fallback_m": 2.0,
+    "wall_nz_threshold": 0.5,
+    "units": "m"
+  },
+  "planes": [
+    {
+      "label": 0,
+      "normal": [
+        0.003905111018432741,
+        -0.9999923750248968,
+        0.0
+      ],
+      "corners": [
+        [
+          2.343,
+          4.598,
+          0.408
+        ],
+        [
+          2.343,
+          4.598,
+          6.751
+        ],
+        [
+          0.293,
+          4.59,
+          6.751
+        ],
+        [
+          0.293,
+          4.59,
+          0.408
+        ],
+        [
+          2.343,
+          4.598,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 1,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "corners": [
+        [
+          2.423,
+          0.281,
+          0.408
+        ],
+        [
+          6.682,
+          0.101,
+          0.408
+        ],
+        [
+          6.518,
+          7.529,
+          0.408
+        ],
+        [
+          0.174,
+          7.505,
+          0.408
+        ],
+        [
+          0.293,
+          4.59,
+          0.408
+        ],
+        [
+          2.343,
+          4.598,
+          0.408
+        ],
+        [
+          2.423,
+          0.281,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 2,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "corners": [
+        [
+          2.423,
+          0.281,
+          6.751
+        ],
+        [
+          6.682,
+          0.101,
+          6.751
+        ],
+        [
+          6.518,
+          7.529,
+          6.751
+        ],
+        [
+          0.174,
+          7.505,
+          6.751
+        ],
+        [
+          0.293,
+          4.59,
+          6.751
+        ],
+        [
+          2.343,
+          4.598,
+          6.751
+        ],
+        [
+          2.423,
+          0.281,
+          6.751
+        ]
+      ]
+    },
+    {
+      "label": 3,
+      "normal": [
+        0.003907535355371645,
+        -0.9999923655545808,
+        0.0
+      ],
+      "corners": [
+        [
+          0.174,
+          7.505,
+          0.408
+        ],
+        [
+          6.518,
+          7.529,
+          0.408
+        ],
+        [
+          6.518,
+          7.529,
+          6.751
+        ],
+        [
+          0.174,
+          7.505,
+          6.751
+        ],
+        [
+          0.174,
+          7.505,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 4,
+      "normal": [
+        -0.042051861279835324,
+        -0.9991154292487439,
+        0.0
+      ],
+      "corners": [
+        [
+          6.682,
+          0.101,
+          0.408
+        ],
+        [
+          6.682,
+          0.101,
+          6.751
+        ],
+        [
+          2.423,
+          0.281,
+          6.751
+        ],
+        [
+          2.423,
+          0.281,
+          0.408
+        ],
+        [
+          6.682,
+          0.101,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 5,
+      "normal": [
+        -0.9997566263360735,
+        -0.02206100852437911,
+        0.0
+      ],
+      "corners": [
+        [
+          6.518,
+          7.529,
+          0.408
+        ],
+        [
+          6.682,
+          0.101,
+          0.408
+        ],
+        [
+          6.682,
+          0.101,
+          6.751
+        ],
+        [
+          6.518,
+          7.529,
+          6.751
+        ],
+        [
+          6.518,
+          7.529,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 6,
+      "normal": [
+        -0.9998265857274738,
+        -0.018622525944199685,
+        0.0
+      ],
+      "corners": [
+        [
+          2.343,
+          4.598,
+          0.408
+        ],
+        [
+          2.423,
+          0.281,
+          0.408
+        ],
+        [
+          2.423,
+          0.281,
+          6.751
+        ],
+        [
+          2.343,
+          4.598,
+          6.751
+        ],
+        [
+          2.343,
+          4.598,
+          0.408
+        ]
+      ]
+    },
+    {
+      "label": 7,
+      "normal": [
+        -0.9991583053571426,
+        -0.04102049287664608,
+        0.0
+      ],
+      "corners": [
+        [
+          0.293,
+          4.59,
+          6.751
+        ],
+        [
+          0.174,
+          7.505,
+          6.751
+        ],
+        [
+          0.174,
+          7.505,
+          0.408
+        ],
+        [
+          0.293,
+          4.59,
+          0.408
+        ],
+        [
+          0.293,
+          4.59,
+          6.751
+        ]
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "id": "window_000",
+      "opening_type": "window",
+      "cluster_id": 0,
+      "plane_distance_m": 0.008094838854461668,
+      "assignment_mode": "strict",
+      "status": "assigned",
+      "center": [
+        0.6987660833333332,
+        7.515145458333334,
+        2.384371180555556
+      ],
+      "width": 1.2107265131804206,
+      "height": 1.2303746520929768,
+      "angle_rad": 2.0093985958853446,
+      "sill_v_plane": 1.4047290000000001,
+      "units": "m",
+      "host_plane_label": 3,
+      "host_plane_normal": [
+        0.003907535355371645,
+        -0.9999923655545808,
+        0.0
+      ],
+      "host_plane_u": [
+        0.9999923655545809,
+        0.0039075353553716455,
+        -0.0
+      ],
+      "host_plane_v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "host_plane_p0": [
+        0.174,
+        7.505,
+        0.408
+      ]
+    },
+    {
+      "id": "window_001",
+      "opening_type": "window",
+      "cluster_id": 1,
+      "plane_distance_m": 0.04277544544291539,
+      "assignment_mode": "strict",
+      "status": "assigned",
+      "center": [
+        0.7881372621359223,
+        7.550175553398059,
+        4.170581631067963
+      ],
+      "width": 1.3711169952500857,
+      "height": 1.1918554738812577,
+      "angle_rad": 1.727995409961859,
+      "sill_v_plane": 3.140115,
+      "units": "m",
+      "host_plane_label": 3,
+      "host_plane_normal": [
+        0.003907535355371645,
+        -0.9999923655545808,
+        0.0
+      ],
+      "host_plane_u": [
+        0.9999923655545809,
+        0.0039075353553716455,
+        -0.0
+      ],
+      "host_plane_v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "host_plane_p0": [
+        0.174,
+        7.505,
+        0.408
+      ]
+    },
+    {
+      "id": "window_002",
+      "opening_type": "window",
+      "cluster_id": 2,
+      "plane_distance_m": 0.031832853347789555,
+      "assignment_mode": "strict",
+      "status": "assigned",
+      "center": [
+        0.6780910163934427,
+        7.475136672131146,
+        0.5161978852459018
+      ],
+      "width": 1.2792508492585641,
+      "height": 0.9864760752472342,
+      "angle_rad": -3.0037873677168,
+      "sill_v_plane": -0.367583,
+      "units": "m",
+      "host_plane_label": 3,
+      "host_plane_normal": [
+        0.003907535355371645,
+        -0.9999923655545808,
+        0.0
+      ],
+      "host_plane_u": [
+        0.9999923655545809,
+        0.0039075353553716455,
+        -0.0
+      ],
+      "host_plane_v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "host_plane_p0": [
+        0.174,
+        7.505,
+        0.408
+      ]
+    },
+    {
+      "id": "window_003",
+      "opening_type": "window",
+      "cluster_id": 3,
+      "host_plane_label": null,
+      "status": "unassigned",
+      "assignment_mode": "too_far",
+      "plane_distance_m": 4.446322181373437,
+      "center": [
+        0.6255495109890105,
+        0.14493702930402935,
+        0.5296419615384618
+      ],
+      "note": "Nearest containing wall is beyond max_plane_fallback (too_far); raise max_plane_fallback or check cloud registration."
+    },
+    {
+      "id": "window_004",
+      "opening_type": "window",
+      "cluster_id": 4,
+      "host_plane_label": null,
+      "status": "unassigned",
+      "assignment_mode": "too_far",
+      "plane_distance_m": 4.371687502994393,
+      "center": [
+        0.7079264324942796,
+        0.21989397025171623,
+        4.1868497711670525
+      ],
+      "note": "Nearest containing wall is beyond max_plane_fallback (too_far); raise max_plane_fallback or check cloud registration."
+    },
+    {
+      "id": "window_005",
+      "opening_type": "window",
+      "cluster_id": 5,
+      "host_plane_label": null,
+      "status": "unassigned",
+      "assignment_mode": "too_far",
+      "plane_distance_m": 4.410911121976846,
+      "center": [
+        0.6765310551181104,
+        0.18054744881889753,
+        2.392015047244094
+      ],
+      "note": "Nearest containing wall is beyond max_plane_fallback (too_far); raise max_plane_fallback or check cloud registration."
+    }
+  ]
+}
